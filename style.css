@@ -134,11 +134,20 @@ body {}
     width: 80%;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     margin-bottom: 50px;
 }
 
 .botoes p {
     font-size: 18px;
+}
+
+.extensos {
+    margin-top: 20px;
+}
+
+.extensos p {
+    font-size: 12px;
 }
 
 .link {
