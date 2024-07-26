@@ -9,34 +9,30 @@
 p {
     font-size: 28px;
     font-family: "Roboto";
-    
+
 }
 
 h2 {
     font-size: 40px;
     font-family: "Bebas Neue";
-    
+
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-body {
-   
-}
+body {}
 
 /*Banner area*/
 .banner {
     height: 750px;
-    
+
     padding: 50px;
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .portifolio {
@@ -75,7 +71,7 @@ body {
 
 /*Sobre area*/
 .sobre {
-    
+
     height: 600px;
     display: flex;
     align-items: center;
@@ -88,11 +84,11 @@ body {
     height: 80%;
     background-color: #38FFAB;
     margin-left: 50px;
-    padding: 80px;
+    padding: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 5px;
 }
 
@@ -104,15 +100,15 @@ body {
 }
 
 .foto img {
-    height: 20%;
-    width: 40%;
+    height: 30%;
+    width: 50%;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 /*Contatos*/
 .contato {
-    
+
     height: 400px;
     display: flex;
     align-items: center;
@@ -125,7 +121,7 @@ body {
     height: 80%;
     background-color: #38FFAB;
     border-radius: 5px;
-    
+
     padding: 20px;
     display: flex;
     align-items: center;
@@ -149,4 +145,190 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.link a {
+    width: 50px;
+}
+
+.link a:hover {
+    transform: scale(1.15);
+    fill: white;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width :1450px) {
+
+    /*Banner area*/
+    .qverde {
+        width: 60%;
+        margin-right: 60px;
+        margin-left: 20px;
+    }
+
+    /*Sobre area*/
+    .textosobre p {
+        font-size: 24px;
+    }
+
+    .textosobre h2 {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width :1250px) {
+
+    /*Sobre area*/
+    .foto img {
+        height: 40%;
+
+    }
+}
+
+@media screen and (max-width :1150px) {
+
+    /*Configs. gerais*/
+    p {
+        font-size: 18px;
+    }
+
+    .titulos h2 {
+        font-size: 30px;
+    }
+
+    /*Banner area*/
+    .banner {
+        height: 500px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .qverde {
+        height: 80%;
+        width: 80%;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .titulos {
+        height: 60%;
+        margin-top: 100px;
+        margin-right: 150px;
+    }
+
+    .banner h2 {
+        font-size: 24px;
+    }
+
+    .portifolio {
+        font-size: 18px;
+        margin-left: 120px;
+    }
+
+    .traco {
+        width: 90px;
+        margin-left: 110px;
+    }
+
+    /*Sobre area*/
+    .textosobre {
+        width: 65%;
+        padding: 60px;
+        justify-content: space-around;
+    }
+
+    .foto img {
+        height: 50%;
+        width: 60%;
+    }
+
+    /*Contato area*/
+
+    .contato {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .cont {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .botoes {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .link {
+        width: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width :850px) {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    /*Banner area*/
+    .qverde {
+        width: 80%;
+        margin-right: 20px;
+    }
+
+    .titulos {
+
+        margin-top: 200px;
+        margin-right: 70px;
+    }
+
+    /*Sobre area*/
+    .textosobre p {
+        font-size: 22px;
+    }
+
+    .foto img {
+        height: 90%;
+        width: 100%;
+
+        margin-left: 50px;
+
+    }
+}
+
+@media screen and (max-width :700px) {
+    .textosobre p {
+        font-size: 20px;
+    }
+
+    .textosobre h2 {
+        font-size: 28px;
+    }
+
+    .link p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width :600px) {
+    .textosobre p {
+        font-size: 18px;
+    }
+
+    .textosobre h2 {
+        font-size: 26px;
+    }
+
+    .link p {
+        font-size: 14px;
+    }
 }
