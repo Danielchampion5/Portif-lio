@@ -1,0 +1,152 @@
+/*Reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Configs. gerais*/
+p {
+    font-size: 28px;
+    font-family: "Roboto";
+    
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Bebas Neue";
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   
+}
+
+/*Banner area*/
+.banner {
+    height: 750px;
+    
+    padding: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.portifolio {
+    font-size: 25px;
+    margin-left: 210px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.banner h2 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.titulos {
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
+    margin-right: 300px;
+}
+
+.qverde {
+    height: 600px;
+    width: 400px;
+    background-color: #38FFAB;
+    margin-right: 80px;
+    border-radius: 5px;
+}
+
+.traco {
+    width: 120px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 200px;
+}
+
+/*Sobre area*/
+.sobre {
+    
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.textosobre {
+    width: 50%;
+    height: 80%;
+    background-color: #38FFAB;
+    margin-left: 50px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.foto {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto img {
+    height: 20%;
+    width: 40%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/*Contatos*/
+.contato {
+    
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cont {
+    width: 60%;
+    height: 80%;
+    background-color: #38FFAB;
+    border-radius: 5px;
+    
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.botoes {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.botoes p {
+    font-size: 18px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
