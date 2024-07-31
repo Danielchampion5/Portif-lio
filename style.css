@@ -76,7 +76,7 @@ body {}
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 200px;
+    
 }
 
 .textosobre {
@@ -104,6 +104,34 @@ body {}
     width: 50%;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+/*Competencias*/
+
+.conhecimentos {
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.qverde2 {
+    height: 90%;
+    width: 80%;
+    background-color: #38FFAB;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logos {
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Contatos*/
@@ -193,6 +221,19 @@ body {}
         height: 40%;
 
     }
+
+    /*Conhecimentos*/
+    .conhecimentos {
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logos {
+        width: 60%;
+        height: 50%;
+    }
 }
 
 @media screen and (max-width :1150px) {
@@ -238,6 +279,12 @@ body {}
     .traco {
         width: 90px;
         margin-left: 110px;
+    }
+
+    /*Conhecimentos*/
+    .conhecimentos .qverde {
+        width: 90%;
+        padding: 20px;
     }
 
     /*Sobre area*/
